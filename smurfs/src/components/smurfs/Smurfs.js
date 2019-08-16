@@ -16,18 +16,19 @@ class Smurfs extends Component {
 
     <header>
     <h2>{this.props.smurf.name}</h2>
-    <button onClick={e => this.removeSmurf(e, this.props.smurf.id)}>Delete</button>
   </header>
 
   <div className="height">
     <h3>height:</h3>
-    <p> {this.props.smurf.height} tall </p>
+    <p> {this.props.smurf.height} inches tall </p>
   </div>
 
   <div className="age">
     <h3>Age:</h3>
     <p>{this.props.smurf.age} smurf years old</p>
   </div>
+
+  <button className = 'delete' onClick={e => this.removeSmurf(e, this.props.smurf.id)}>Delete</button>
 
 </div>
 )

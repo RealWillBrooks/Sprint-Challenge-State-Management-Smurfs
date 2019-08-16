@@ -52,10 +52,21 @@ input{
   background: white;
   text-align: center;
   margin-bottom: 20px;
-  box-shadow: 2px black;
+  box-shadow: 5px 5px 10px #1b1b1b;
 }
 
+.existing-smurf header{
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
 
+.height{
+  padding-bottom: 10px;
+}
+
+.age{
+  padding-bottom: 10px;
+}
 
 h4{
   margin-bottom: 10px;
